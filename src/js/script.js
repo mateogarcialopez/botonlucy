@@ -5,7 +5,7 @@ $(function () {
   var flag1 = 0;
 
   //Funcion para cerrar el chat desde la (X)
-  $('#botonCerrar').on('click', function () {
+  $('#botonMin, #cabecera').on('click', function () {
     document.getElementById('ifr1').style.display = 'none';
     flag = 0;
   });
@@ -21,7 +21,8 @@ $(function () {
       //---------------cerrar la ventana modal-----------------------------
       
       document.getElementById("ifr1").style.display = "block";
-      document.getElementById("botonCerrar").style.display = "block";
+      document.getElementById("botonMin").style.display = "block";
+      document.getElementById("cabecera").style.display = "block";
 
 
       document.getElementById("ifr1").style.opacity = "3";
