@@ -1,3 +1,8 @@
+const iframe = document.getElementById('ifr1');
+//const doc = iframe.contentDocument;
+console.log('qwertyuiop');
+console.log(iframe);
+
 $(function () {
 
 
@@ -14,7 +19,7 @@ $(function () {
   $('.share, .contenido').on('click', function () {
 
     if (flag == 0) {
-      $('.one iframe').delay().fadeIn();
+      $('.one ifr1').delay().fadeIn();
 
       //---------------cerrar la ventana modal-----------------------------
       document.getElementById("modal").style.display = "none"; //Reemplazar el ID del modal
