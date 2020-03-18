@@ -36,8 +36,6 @@ $(function () {
       document.getElementById("ifr1").style.display = "block";
       document.getElementById("botonMin").style.display = "block";
       document.getElementById("cabecera").style.display = "block";
-
-
       document.getElementById("ifr1").style.opacity = "3";
       flag = 1;
       flag1 = 1;
