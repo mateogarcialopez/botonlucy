@@ -1,6 +1,3 @@
-
-
-
 const iframe = document.getElementById('ifr1');
 //const doc = iframe.contentDocument;
 console.log(iframe);

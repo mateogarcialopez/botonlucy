@@ -2,48 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>boton Lucy</title>
+  <link rel="stylesheet" href="./src/assets/css/style.css">
 </head>
 
 <body>
 
-    <h1>Controller Window</h1>
-    <p>
-        This document is on the domain: http://codepen.io
-    </p>
-    <p>
-        <button id="send">Send Message</button>
-    </p>
+  <!--https://webchat.botframework.com/embed/produccionLucy?s=zEJLy6zJHYs.8cb15NkYILu07OQwxVE_-AH06On6Bdus5m0HOiHSH0k-->
+  <!--https://chatlucy.now.sh/-->
 
-    <iframe id="receiver" src="https://chat-web.mateogarcialopez3.now.sh/" width="500" height="200">
-        <p>Your browser does not support iframes.</p>
-    </iframe>
+  <!--Modal-->
+  <div class="modal" id="modal">
+    <div class="contenido">
+      <img id="imgchec" src="https://www.chec.com.co/portals/0/Images/pop_up.png" alt="">
+    </div>
+  </div>
+  <!--Modal-->
 
 
-    <script>
-        window.onload = function () {
-            // Get the window displayed in the iframe.
-            var receiver = document.getElementById('receiver').contentWindow;
 
-            // Get a reference to the 'Send Message' button.
-            var btn = document.getElementById('send');
+  <img src="/src//assets/img/Chec.png" width="100%" height="100%">
 
-            // A function to handle sending messages.
-            function sendMessage(e) {
-                // Prevent any default browser behaviour.
-                e.preventDefault();
+  <!--Chat-->
+  <div class="one">
 
-                // Send a message with the text 'Hello Treehouse!' to the receiver window.
-                receiver.postMessage('Hello Treehouse!', 'https://chat-web-l2rohupts.now.sh/');
-            }
+    <div id="cabecera">
+      <i class="fa fa-minus" aria-hidden="true" id="botonMin"></i>
+    </div>
 
-            // Add an event listener that will execute the sendMessage() function
-            // when the send button is clicked.
-            btn.addEventListener('click', sendMessage);
-        }
-    </script>
+    <iframe id="ifr1" src='https://chat-web-bay.now.sh/'></iframe>
+  </div>
+  <img title="Chatea Conmigo" class="share"
+    src="https://lh3.googleusercontent.com/-pok8_tK_ayw/XR4R6-KzFMI/AAAAAAAAAPY/jOYwjGrVWM0cO4hANSGnNToK5IVgm-iNgCK8BGAs/s0/2019-07-04.jpg">
+  <!--Chat-->
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'> </script>
+  <script src="./src/js/script.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </body>
 
 </html>
