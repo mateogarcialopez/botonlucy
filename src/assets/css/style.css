@@ -22,12 +22,14 @@
 }
 
 #ifr1{
-  min-width: 360px; 
-  min-height: 524px;   
+  width: 361px; 
+  height: 524px;   
   background-color: rgba(255, 255, 255, 0); 
   opacity: 0;
   border: 1px solid rgba(255, 255, 255, 0);
 }
+
+
 
 #msgPrincipal{  
   top: -17px;
