@@ -1,10 +1,10 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
   var w = $("body").innerWidth();
   if(w == 344){
     console.log("lopez");
     $("#ifr1").innerWidth(300);
   }
-});
+});*/
 
 
 
