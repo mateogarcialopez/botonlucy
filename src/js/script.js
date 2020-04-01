@@ -1,19 +1,4 @@
-/*$(document).ready(function () {
-  var w = $("body").innerWidth();
-  if(w == 344){
-    console.log("lopez");
-    $("#ifr1").innerWidth(300);
-  }
-});*/
-
-
-
-
-//import { opens_chat, dialog_id } from "./config";
-var opens_chat = $('.share, .cuerpoPortalesChec');
-var dialog_id = $("#modal");
-
-
+import { opens_chat, dialog_id } from "./config.js";
 
 $(function () {
 
