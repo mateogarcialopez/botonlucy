@@ -5,9 +5,9 @@ if (screen.width <= 768) {
 
   $(function () {
 
-    document.getElementById('ifr1').style.right = '354px';
-    document.getElementById('one').style.right = '-70px';
-    document.getElementById('one').style.bottom = '-44px';
+    document.getElementById('ifr1').style.width = '349px';
+    document.getElementById('one').style.right = '-67px';
+    document.getElementById('one').style.bottom = '-47px';
     var flag = 0;
     var to;
 
