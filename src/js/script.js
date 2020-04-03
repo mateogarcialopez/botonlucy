@@ -7,9 +7,11 @@ $(function () {
 
   //Funcion para cerrar el chat desde la (X)
   $('#botonMin, #cabecera').on('click', function () {
-    document.getElementById('ifr1').style.display = 'none';
+    document.getElementById('ifr1').style.display = 'none';    
+    document.getElementById('share').style.display = 'block';
     flag = 0;
   });
+
 
   //Controlar el abrir y cerrar el chat desde el boton
   opens_chat.on('click', function () {
@@ -21,7 +23,7 @@ $(function () {
 
       document.getElementById("ifr1").style.display = "block";
       document.getElementById("botonMin").style.display = "block";
-
+      document.getElementById('share').style.display = 'none';
 
 
       document.getElementById("ifr1").style.opacity = "3";
