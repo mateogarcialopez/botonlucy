@@ -14,8 +14,8 @@
 }
 
 .one {  
-  right:-54px;
-  bottom:-18px;
+  right: -60px;
+  bottom: -29px;
   position:fixed;  
   transform: translate(-20%, -9%);   
 }
