@@ -7,9 +7,9 @@ if (screen.width <= 768) {
 
     document.getElementById('cabecera').style.width = '314px';
     document.getElementById('ifr1').style.width = '349px';
+    document.getElementById('one').style.height = '520px';
     document.getElementById('one').style.right = '-66px';
     document.getElementById('one').style.bottom = '-47px';
-    document.getElementById('one').style.height = '520pxpx';
     var flag = 0;
     var to;
 
