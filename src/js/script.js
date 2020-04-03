@@ -5,8 +5,9 @@ if (screen.width <= 768) {
 
   $(function () {
 
+    document.getElementById('cabecera').style.width = '314px';
     document.getElementById('ifr1').style.width = '349px';
-    document.getElementById('one').style.right = '-67px';
+    document.getElementById('one').style.right = '-66px';
     document.getElementById('one').style.bottom = '-47px';
     var flag = 0;
     var to;
