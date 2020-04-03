@@ -5,8 +5,8 @@ if (screen.width <= 768) {
 
   $(function () {
 
-    document.getElementById('one').style.right = '-60px';
-    document.getElementById('one').style.bottom = '-40px';
+    document.getElementById('one').style.right = '-73px';
+    document.getElementById('one').style.bottom = '-44px';
     var flag = 0;
     var to;
 
